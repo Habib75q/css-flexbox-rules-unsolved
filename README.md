@@ -36,10 +36,10 @@ This assignment should prove that a student is able to:
 
 ## Standard requirements
 
-- [ ] Fork the project to your github account
-- [ ] Clone the project to your computer
-- [ ] Open the project in VSCode with `code <cloned_repo_folder_name>`
-- [ ] This Assignment is NOT tested. You can use all the desired creativity!
+- [x] Fork the project to your github account
+- [x] Clone the project to your computer
+- [x] Open the project in VSCode with `code <cloned_repo_folder_name>`
+- [x] This Assignment is NOT tested. You can use all the desired creativity!
 - [ ] All the tasks of the "Specific requirements" section MUST be solved
 - [ ] The project's file/folder structure should NOT be edited!
 - [ ] The ecommerce-page.html file should NOT be edited!
@@ -56,12 +56,12 @@ You'll discover certain styles existing in the initial state of the CSS files. T
 
 Acceptance criteria:
 
-- [ ] The layout should closely resemble the mockup.
-- [ ] Avoid using margin and float CSS rules to define distance/space between elements or their alignment.
-- [ ] Positioning (utilizing the position CSS property) is prohibited.
-- [ ] Edit the following files:
+- [x] The layout should closely resemble the mockup.
+- [x] Avoid using margin and float CSS rules to define distance/space between elements or their alignment.
+- [x] Positioning (utilizing the position CSS property) is prohibited.
+- [x] Edit the following files:
   - [ ] html: `/pages/authentication-form.html`
-  - [ ] css: `/css/authentication-form.css`
+  - [x] css: `/css/authentication-form.css`
 
 Create the form HTML elements to imitate the mockup:
 

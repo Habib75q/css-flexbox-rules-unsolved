@@ -12,10 +12,15 @@ body {
 
 .content {
   padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: flex-start;
 }
 
 h2 {
   text-transform: uppercase;
+  margin-top: 5px;
 }
 
 p {
@@ -26,12 +31,44 @@ p {
 
 form {
   border: 1px solid #a9a9a9;
+  width: 100%;
   padding: 20px;
+}
+
+.form-input-control,
+.form-checkbox-control,
+.form-submit-control,
+.form-group-horizontal-control,
+.form-group-vertical-control {
+  margin-bottom: 15px;
+  justify-content: space-around;
+}
+
+.form-group-horizontal-control {
+  display: flex;
+  gap: 20px;
+}
+
+.form-input-control select,
+.form-input-control input,
+.form-group-horizontal-control select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form-submit-control {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  justify-content: center;
+  gap: 50px;
 }
 
 .subtext {
   color: #a9a9a9;
   font-weight: unset;
+  margin-bottom: 15px;
 }
 
 #sign-in,
@@ -51,7 +88,7 @@ label {
 input {
   width: 100%;
   height: 30px;
-  padding: 5px;
+  padding: 15px;
 }
 
 input[type="checkbox"],
