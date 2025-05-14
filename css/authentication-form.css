@@ -47,6 +47,7 @@ form {
 .form-group-horizontal-control {
   display: flex;
   gap: 20px;
+  width: 100%;
 }
 
 .form-input-control select,
@@ -87,8 +88,7 @@ label {
 
 input {
   width: 100%;
-  height: 30px;
-  padding: 15px;
+  height: 32px;
 }
 
 input[type="checkbox"],
@@ -119,4 +119,13 @@ input[type="submit"]:hover {
 
 .form select {
   height: 30px;
+}
+
+#city,
+#state {
+  width: 100%;
+}
+
+.form-input-control {
+  width: 100%;
 }
